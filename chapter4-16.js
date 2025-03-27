@@ -1,6 +1,8 @@
-function logArgument(){
-    console.log(argument);
-    for (let i = 0; i < argument " + i +": " + arguments [i]);
-}
-}
-logArgument("Apple", "Banana","cheery");
+function logArgument() {
+    console.log(arguments);
+    for (let i = 0; i < arguments.length; i++) {
+      console.log("argument " + i + ": " + arguments[i]);
+    }
+  }
+  
+  logArgument("Apple", "Banana", "cherry");

@@ -4,5 +4,5 @@ function sum(...numbers){
     }
     return total;
 }
-console.log(sum(1 2, 3, 4, 5));
-console.log(sum)(10, 20));
+console.log(sum(1, 2, 3, 4, 5));
+console.log(sum)(10, 20);
